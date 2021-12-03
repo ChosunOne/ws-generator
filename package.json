@@ -1,0 +1,24 @@
+{
+  "name": "ws-generator",
+  "version": "1.0.0",
+  "description": "A wrapper around a `WebSocket` to allow you to await for messages from it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ChosunOne <chosunone@protonmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.2.1",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
